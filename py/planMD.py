@@ -86,7 +86,13 @@ def run(fichier):
                 # Dossiers de travaux
                 else:
                     # On écrit le code
-                    g.write('''</c>\n''')
+                    if niveauCourant == 2:
+                        g.write('''</c>\n''')
+                        g.write('''</c>\n''')
+                    elif niveauCourant == 3:
+                        g.write('''</c>\n''')
+                        g.write('''</c>\n''')
+                        g.write('''</c>\n''')
                     g.write('''<c level="series">\n''')
                     g.write('''<did>\n''')
                     g.write(f'''<unitid type="identifiant">{comp}</unitid>\n''')
@@ -97,7 +103,14 @@ def run(fichier):
                 niveauCourant = 1
 
             elif ligne[:3] == "## ":
-                if niveauCourant < 3:
+                if niveauCourant == 2:
+                    g.write('''</c>\n''')
+                elif niveauCourant == 3:
+                    g.write('''</c>\n''')
+                    g.write('''</c>\n''')
+                elif niveauCourant == 4:
+                    g.write('''</c>\n''')
+                    g.write('''</c>\n''')
                     g.write('''</c>\n''')
                 g.write('''<c level="subseries">\n''')
                 g.write('''<did>\n''')
@@ -106,10 +119,13 @@ def run(fichier):
                 g.write(f'''<unitdate normal="">{comp}</unitdate>\n''')
                 g.write('''</did>\n''')
                 
-                niveauCourant == 2
+                niveauCourant = 2
 
             elif ligne[:4] == "### ":
-                if niveauCourant < 4:
+                if niveauCourant == 3:
+                    g.write('''</c>\n''')
+                elif niveauCourant == 4:
+                    g.write('''</c>\n''')
                     g.write('''</c>\n''')
                 g.write('''<c level="file">\n''')
                 g.write('''<did>\n''')
@@ -118,10 +134,10 @@ def run(fichier):
                 g.write(f'''<unitdate normal="">{comp}</unitdate>\n''')
                 g.write('''</did>\n''')
     
-                niveauCourant == 3
+                niveauCourant = 3
 
             elif ligne[:5] == "#### ":
-                if niveauCourant < 5:
+                if niveauCourant == 4:
                     g.write('''</c>\n''')
                 g.write('''<c level="item">\n''')
                 g.write('''<did>\n''')
@@ -130,12 +146,11 @@ def run(fichier):
                 g.write(f'''<unitdate normal="">{comp}</unitdate>\n''')
                 g.write('''</did>\n''')
     
-                niveauCourant == 4
-            
-        
-        # On referme le dernier titre de niv1
+                niveauCourant = 4
+
         g.write('''</c>\n''')
-        
+        g.write('''</c>\n''')
+        g.write('''</c>\n''')
         g.write('''</dsc>\n''')
 
 

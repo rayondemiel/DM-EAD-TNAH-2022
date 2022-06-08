@@ -6,7 +6,6 @@
 <unittitle>I-Programmation</unittitle>
 <unitdate normal=""><!--compléter--></unitdate>
 </did>
-</c>
 <c level="subseries">
 <did>
 <unitid type="identifiant"><!--compléter--></unitid>
@@ -56,20 +55,19 @@
 <unitdate normal=""><!--compléter--></unitdate>
 </did>
 </c>
+</c>
 <c level="series">
 <did>
 <unitid type="identifiant"><!--compléter--></unitid>
 <unittitle>II - Dossiers de travaux</unittitle>
 <unitdate normal=""><!--compléter--></unitdate>
 </did>
-</c>
 <c level="subseries">
 <did>
 <unitid type="identifiant"><!--compléter--></unitid>
 <unittitle>Paris</unittitle>
 <unitdate normal=""><!--compléter--></unitdate>
 </did>
-</c>
 <c level="file">
 <did>
 <unitid type="identifiant"><!--compléter--></unitid>
@@ -83,7 +81,6 @@
 <unittitle>Archives nationales</unittitle>
 <unitdate normal=""><!--compléter--></unitdate>
 </did>
-</c>
 <c level="item">
 <did>
 <unitid type="identifiant"><!--compléter--></unitid>
@@ -140,6 +137,7 @@
 <unitdate normal=""><!--compléter--></unitdate>
 </did>
 </c>
+</c>
 <c level="file">
 <did>
 <unitid type="identifiant"><!--compléter--></unitid>
@@ -188,13 +186,13 @@
 <unittitle>Conservatoire national supérieur d'art dramatique (CNSAD)</unittitle>
 <unitdate normal=""><!--compléter--></unitdate>
 </did>
-</c>
 <c level="item">
 <did>
 <unitid type="identifiant"><!--compléter--></unitid>
 <unittitle>Restauration de la salle de spectacle et restructuration de la scène</unittitle>
 <unitdate normal=""><!--compléter--></unitdate>
 </did>
+</c>
 </c>
 <c level="file">
 <did>
@@ -231,13 +229,13 @@
 <unitdate normal=""><!--compléter--></unitdate>
 </did>
 </c>
+</c>
 <c level="subseries">
 <did>
 <unitid type="identifiant"><!--compléter--></unitid>
 <unittitle>Hôpital de la Salpêtrière</unittitle>
 <unitdate normal=""><!--compléter--></unitdate>
 </did>
-</c>
 <c level="file">
 <did>
 <unitid type="identifiant"><!--compléter--></unitid>
@@ -258,7 +256,6 @@
 <unittitle>Hôtel national des Invalides^[^4]^ </unittitle>
 <unitdate normal=""><!--compléter--></unitdate>
 </did>
-</c>
 <c level="item">
 <did>
 <unitid type="identifiant"><!--compléter--></unitid>
@@ -272,6 +269,7 @@
 <unittitle>Eglise royale</unittitle>
 <unitdate normal=""><!--compléter--></unitdate>
 </did>
+</c>
 </c>
 <c level="file">
 <did>
@@ -314,7 +312,6 @@
 <unittitle>Ministère de la Culture</unittitle>
 <unitdate normal=""><!--compléter--></unitdate>
 </did>
-</c>
 <c level="item">
 <did>
 <unitid type="identifiant"><!--compléter--></unitid>
@@ -335,6 +332,7 @@
 <unittitle>65, rue de Richelieu </unittitle>
 <unitdate normal=""><!--compléter--></unitdate>
 </did>
+</c>
 </c>
 <c level="file">
 <did>
@@ -440,7 +438,6 @@
 <unittitle>Palais de Chaillot</unittitle>
 <unitdate normal=""><!--compléter--></unitdate>
 </did>
-</c>
 <c level="item">
 <did>
 <unitid type="identifiant"><!--compléter--></unitid>
@@ -461,6 +458,7 @@
 <unittitle>Aile de Passy </unittitle>
 <unitdate normal=""><!--compléter--></unitdate>
 </did>
+</c>
 </c>
 <c level="file">
 <did>
@@ -489,7 +487,6 @@
 <unittitle>Palais-Royal</unittitle>
 <unitdate normal=""><!--compléter--></unitdate>
 </did>
-</c>
 <c level="item">
 <did>
 <unitid type="identifiant"><!--compléter--></unitid>
@@ -518,13 +515,13 @@
 <unitdate normal=""><!--compléter--></unitdate>
 </did>
 </c>
+</c>
 <c level="file">
 <did>
 <unitid type="identifiant"><!--compléter--></unitid>
 <unittitle>Palais du Louvre et Tuileries</unittitle>
 <unitdate normal=""><!--compléter--></unitdate>
 </did>
-</c>
 <c level="item">
 <did>
 <unitid type="identifiant"><!--compléter--></unitid>
@@ -559,6 +556,7 @@
 <unittitle>Orangerie</unittitle>
 <unitdate normal=""><!--compléter--></unitdate>
 </did>
+</c>
 </c>
 <c level="file">
 <did>
@@ -601,7 +599,6 @@
 <unittitle>Val-de-Grâce</unittitle>
 <unitdate normal=""><!--compléter--></unitdate>
 </did>
-</c>
 <c level="item">
 <did>
 <unitid type="identifiant"><!--compléter--></unitid>
@@ -609,13 +606,14 @@
 <unitdate normal=""><!--compléter--></unitdate>
 </did>
 </c>
+</c>
+</c>
 <c level="subseries">
 <did>
 <unitid type="identifiant"><!--compléter--></unitid>
 <unittitle>Seine-et-Marne (77)</unittitle>
 <unitdate normal=""><!--compléter--></unitdate>
 </did>
-</c>
 <c level="file">
 <did>
 <unitid type="identifiant"><!--compléter--></unitid>
@@ -658,13 +656,13 @@
 <unitdate normal=""><!--compléter--></unitdate>
 </did>
 </c>
+</c>
 <c level="subseries">
 <did>
 <unitid type="identifiant"><!--compléter--></unitid>
 <unittitle>Yvelines (78)</unittitle>
 <unitdate normal=""><!--compléter--></unitdate>
 </did>
-</c>
 <c level="file">
 <did>
 <unitid type="identifiant"><!--compléter--></unitid>
@@ -692,7 +690,6 @@
 <unittitle>Montigny-le-Bretonneux -- Fort de Saint-Cyr</unittitle>
 <unitdate normal=""><!--compléter--></unitdate>
 </did>
-</c>
 <c level="item">
 <did>
 <unitid type="identifiant"><!--compléter--></unitid>
@@ -713,6 +710,7 @@
 <unittitle>Centre de calcul du ministère de la Culture</unittitle>
 <unitdate normal=""><!--compléter--></unitdate>
 </did>
+</c>
 </c>
 <c level="file">
 <did>
@@ -762,7 +760,6 @@
 <unittitle>Versailles -- Domaine national</unittitle>
 <unitdate normal=""><!--compléter--></unitdate>
 </did>
-</c>
 <c level="item">
 <did>
 <unitid type="identifiant"><!--compléter--></unitid>
@@ -770,13 +767,14 @@
 <unitdate normal=""><!--compléter--></unitdate>
 </did>
 </c>
+</c>
+</c>
 <c level="subseries">
 <did>
 <unitid type="identifiant"><!--compléter--></unitid>
 <unittitle>Essonne (91)</unittitle>
 <unitdate normal=""><!--compléter--></unitdate>
 </did>
-</c>
 <c level="file">
 <did>
 <unitid type="identifiant"><!--compléter--></unitid>
@@ -791,13 +789,13 @@
 <unitdate normal=""><!--compléter--></unitdate>
 </did>
 </c>
+</c>
 <c level="subseries">
 <did>
 <unitid type="identifiant"><!--compléter--></unitid>
 <unittitle>Hauts-de-Seine (92)</unittitle>
 <unitdate normal=""><!--compléter--></unitdate>
 </did>
-</c>
 <c level="file">
 <did>
 <unitid type="identifiant"><!--compléter--></unitid>
@@ -847,20 +845,19 @@
 <unitdate normal=""><!--compléter--></unitdate>
 </did>
 </c>
+</c>
 <c level="subseries">
 <did>
 <unitid type="identifiant"><!--compléter--></unitid>
 <unittitle>Val-de-Marne (94)</unittitle>
 <unitdate normal=""><!--compléter--></unitdate>
 </did>
-</c>
 <c level="file">
 <did>
 <unitid type="identifiant"><!--compléter--></unitid>
 <unittitle>Vincennes -- Château</unittitle>
 <unitdate normal=""><!--compléter--></unitdate>
 </did>
-</c>
 <c level="item">
 <did>
 <unitid type="identifiant"><!--compléter--></unitid>
@@ -903,13 +900,14 @@
 <unitdate normal=""><!--compléter--></unitdate>
 </did>
 </c>
+</c>
+</c>
 <c level="subseries">
 <did>
 <unitid type="identifiant"><!--compléter--></unitid>
 <unittitle>Val-d'Oise (95)</unittitle>
 <unitdate normal=""><!--compléter--></unitdate>
 </did>
-</c>
 <c level="file">
 <did>
 <unitid type="identifiant"><!--compléter--></unitid>
@@ -930,5 +928,7 @@
 <unittitle>Saint-Ouen-l'Aumône -- Abbaye de Maubuisson</unittitle>
 <unitdate normal=""><!--compléter--></unitdate>
 </did>
+</c>
+</c>
 </c>
 </dsc>
