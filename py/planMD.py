@@ -123,7 +123,7 @@ def run(fichier):
             elif ligne[:5] == "#### ":
                 if niveauCourant < 5:
                     g.write('''</c>\n''')
-                g.write('''<c level="">\n''')
+                g.write('''<c level="item">\n''')
                 g.write('''<did>\n''')
                 g.write(f'''<unitid type="identifiant">{comp}</unitid>\n''')
                 g.write(f'''<unittitle>{ligne[5:]}</unittitle>\n''')
