@@ -64,9 +64,7 @@ def run(fichier):
     corps = contenu.split("\n")
 
     h1 = 0
-    h2 = 0
-    h3 = 0
-    h4 = 0
+    niveauCourant = 1
     comp = "<!--compléter-->"
 
     # On ouvre le fichier où l'on écrit l'élément dsc
@@ -76,25 +74,50 @@ def run(fichier):
 
         for ligne in corps:
             if ligne[:2] == "# ":
-                print(ligne)
                 if h1 == 0:
                     g.write('''<c level="series">\n''')
                     g.write('''<did>\n''')
                     g.write(f'''<unitid type="identifiant">{comp}</unitid>\n''')
                     g.write(f'''<unittitle>{ligne[2:]}</unittitle>\n''')
                     g.write(f'''<unitdate normal="">{comp}</unitdate>\n''')
+                    g.write('''</did>\n''')
                     h1 += 1
                 else:
-                    g.write('''</did>\n''')
                     g.write('''</c>\n''')
                     g.write('''<c level="series">\n''')
                     g.write('''<did>\n''')
                     g.write(f'''<unitid type="identifiant">{comp}</unitid>\n''')
                     g.write(f'''<unittitle>{ligne[2:]}</unittitle>\n''')
                     g.write(f'''<unitdate normal="">{comp}</unitdate>\n''')
+                    g.write('''</did>\n''')
+                niveauCourant = 1
+
+            elif ligne[:3] == "## ":
+                if niveauCourant < 3:
+                    g.write('''</c>\n''')
+                g.write('''<c level="subseries">\n''')
+                g.write('''<did>\n''')
+                g.write(f'''<unitid type="identifiant">{comp}</unitid>\n''')
+                g.write(f'''<unittitle>{ligne[3:]}</unittitle>\n''')
+                g.write(f'''<unitdate normal="">{comp}</unitdate>\n''')
+                g.write('''</did>\n''')
+                
+                niveauCourant == 2
+
+            elif ligne[:4] == "### ":
+                if niveauCourant < 4:
+                    g.write('''</c>\n''')
+                g.write('''<c level="file">\n''')
+                g.write('''<did>\n''')
+                g.write(f'''<unitid type="identifiant">{comp}</unitid>\n''')
+                g.write(f'''<unittitle>{ligne[4:]}</unittitle>\n''')
+                g.write(f'''<unitdate normal="">{comp}</unitdate>\n''')
+                g.write('''</did>\n''')
+    
+                niveauCourant == 3
+            
         
         # On referme le dernier titre de niv1
-        g.write('''</did>\n''')
         g.write('''</c>\n''')
         
         g.write('''</dsc>\n''')
