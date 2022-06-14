@@ -129,10 +129,7 @@
                     d’Ile-de-France n’appartenant pas à l’Etat. 1967-1990</item>
             </list>
         </relatedmaterial>
-        <processinfo> <!-- informations sur le traitement, correspondrait à "Évaluation, tris et
-            éliminations" --> 
-            <!-- ! appraisal peut-être aussi?  On peut séparer les infos, chacune dans un encodage spécifique, mais
-                peut-être pas nécessaire vu le peu d'infos qui sont données sur la gestion des docume,ts-->
+        <processinfo>
             <p>Les éliminations ont principalement porté sur les doubles, les dossiers de consultation d'entreprises (DCE), 
                 la documentation reçue à  titre d'information, les documents comptables relatifs au fonctionnement du service.</p>            
         </processinfo>
